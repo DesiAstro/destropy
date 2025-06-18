@@ -30,5 +30,7 @@ Step 2: Run the command: pip install -e.
    3. astropy
 
    4. specutils
+
+   5. tqdm
       
-   5. gaplak
+   6. gaplak
