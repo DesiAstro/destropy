@@ -1,6 +1,6 @@
 # MyLibrary: destropy
 
-A simple Python library for doing for analyzing and visualizing SDSSS MANGA FITS data cube, spectra, and Image 
+A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube, spectra, and Image 
 
 ## Installation
 
