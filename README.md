@@ -16,6 +16,7 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 10. # Coming Soon...
 11. #### Masking of MANGA Spaxel spectra
 12. #### Masking of SDSS FITS Image/spectra
+13. ### Full spectral fitting of SDSS FITS spectra
    
            
    
