@@ -39,7 +39,7 @@ Step-0: Open terminal
 Step 1: Go to the directory destopy/setup.py
 
 
-    #install in editable format
+    #install in editable format: pip install -e .
 Step 2: Run the command: 
     pip install -e .
 
