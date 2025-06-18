@@ -18,12 +18,16 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 9. Creating a Rotation curve of a galaxy using Galpak3D modeling.
 
 10. # Coming Soon...
-11. BPT diagram for SDSS survey: Classify Star-forming Galaxies,AGN and Composite
+11. BPT diagram for SDSS survey: Classify Star-forming Galaxies, AGN, and Composite
 12. #### Masking of MANGA Spaxel spectra
 13. #### Masking of SDSS FITS Image/spectra
 14. #### Full spectral fitting of SDSS FITS spectra
 15. #### Noise Map of MANGA FITS data cube
-16. #### 2D Cutout of SDSS FITS Image
+16. #### Signal-To-Noise Ratio(SNR) per pixel in SDSS FITS spectra
+17. #### 2D Cutout of SDSS FITS Image
+18. #### White light image from FITS data cube
+19. #### Stacking FITS Images
+20. #### stacking FITS data cube Spaxel Spectra
    
            
    
