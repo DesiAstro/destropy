@@ -17,7 +17,7 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 ## Installation
 Step-0: Open terminal
 
-step-1: Go to destopy/setup.py
+step-1: Go to directory destopy/setup.py
 
 
 Step-2: Run command: pip install e .
