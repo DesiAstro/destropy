@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+destropy/__init__.py
+destropy/core.py
+destropy/cube_animation.py
+destropy/cube_extraction.py
+destropy/galpak_manga.py
+destropy/sdss.py
+destropy.egg-info/PKG-INFO
+destropy.egg-info/SOURCES.txt
+destropy.egg-info/dependency_links.txt
+destropy.egg-info/requires.txt
+destropy.egg-info/top_level.txt

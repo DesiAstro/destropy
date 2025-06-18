@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: destropy
+Version: 0.1.0
+Summary: A library for SDSS MaNGA data cube manipulation and Analysis
+Author: Jyoti Prakash
+Requires-Python: >=3.9
+Requires-Dist: numpy
+Requires-Dist: astropy
+Requires-Dist: specutils
+Requires-Dist: matplotlib
+Dynamic: author
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
