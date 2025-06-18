@@ -3,7 +3,7 @@
 A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube, spectra, and images 
 
 # YouTube tutorials: destroy
-##### Coming Soon
+## Coming Soon
 
 
 # Basic Operations
