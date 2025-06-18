@@ -14,8 +14,8 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 9. Creating a Rotation curve of a galaxy using Galpak3D modeling.
 
 10. # coming Soon...
-        #### Masking of MANGA Spaxel spectra
-        #### Masking of SDSS FITS Image/spectra
+11. #### Masking of MANGA Spaxel spectra
+12. #### Masking of SDSS FITS Image/spectra
    
            
    
