@@ -23,8 +23,12 @@ step-1: Go to directory destopy/setup.py
 Step-2: Run command: pip install -e .
 
 # prerequisites
-   1.numpy
-   2.matpotlib
-   3.astropy
-   4.specutils
-   5.gaplak
+   1. numpy
+   
+   2. matplotlib
+   
+   3. astropy
+
+   4 .specutils
+      
+   5 .gaplak
