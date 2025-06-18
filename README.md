@@ -48,3 +48,5 @@ Step 2: Run the command: pip install -e.
    5. tqdm
       
    6. gaplak
+
+   7. pymultinest
