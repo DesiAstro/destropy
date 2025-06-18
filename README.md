@@ -10,7 +10,7 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 5. Extraction of full Spaxel Spectra and 2D Flux Map
 6. Creating a Sub-Cube: 
 7. Fitting Continuum to full spectral Cube
-8. Creating a velocity and disperion map of spectral line
+8. Creating a velocity and dispersion map of the spectral line
    
 
 ## Installation
