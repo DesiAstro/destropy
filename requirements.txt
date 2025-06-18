@@ -1,0 +1,10 @@
+#prerequisites
+numpy
+
+matplotlib
+
+astropy
+
+specutils
+
+gaplak
