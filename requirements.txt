@@ -8,3 +8,5 @@ astropy
 specutils
 
 gaplak
+
+tqdm
