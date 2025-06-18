@@ -20,4 +20,4 @@ Step-0: Open terminal
 step-1: Go to directory destopy/setup.py
 
 
-Step-2: Run command: pip install e .
+Step-2: Run command: pip install -e .
