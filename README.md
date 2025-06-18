@@ -29,6 +29,6 @@ Step 2: Run the command: pip install -e.
    
    3. astropy
 
-   4 .specutils
+   4. specutils
       
-   5 .gaplak
+   5. gaplak
