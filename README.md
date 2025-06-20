@@ -6,7 +6,7 @@ A simple Python library for analyzing and visualizing SDSSS MANGA FITS data cube
 ## Coming Soon: https://www.youtube.com/@Astro_Jyoti/videos
 
 
-# Basic Operations and Visualization
+# What it does: Basic Operations and Visualization
 1. Visualize the SDSS FITS image/spectra
 2. Continuum fitting of SDSS FITS spectra
 3. Visualize SDSS MANGA FITS Data Cube: 
