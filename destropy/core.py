@@ -12,7 +12,9 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-# Read manga LINCUBE and Extarct IVAR 
+# Read manga LINCUBE and Extract IVAR  Cube
+# it takes input as a FITS cube. lower and higher index limit of(x,y,z) axis 
+# return output as VARIANCE(VAR) cube
 def crop_variance(input_fits: str, output_fits: str,x1:int,x2:int,y1:int,y2:int, z1: int, z2: int):
     file = fits.open(input_fits)
     ivar_cube = file['IVAR'].data
@@ -25,7 +27,10 @@ def crop_variance(input_fits: str, output_fits: str,x1:int,x2:int,y1:int,y2:int,
     
     
 
-# subtracts single continuum from single data cube
+# subtracts a single continuum from a single data cube
+#Takes input as MANGA data cube
+# Return output as Continuum subtracted data cube
+
 
 def subtract_continuum(input_fits: str, output_fits: str):
     file = fits.open(input_fits)
@@ -49,8 +54,8 @@ def subtract_continuum(input_fits: str, output_fits: str):
     print(f"Continuum-subtracted cube saved to {output_fits}")
     
     
-    
-
+#Takes input as list of MANGA data cube
+# Return output aslist  Continuum subtracted data cube
 
 def subtract_continuum_list(input_fits_list: list, output_fits_list: list):
     """
@@ -97,9 +102,8 @@ def subtract_continuum_list(input_fits_list: list, output_fits_list: list):
     
     
     
-    
-    
-
+  # It takes input as a FITS cube. lower and higher index limit of(x,y,z) axis 
+# return output as crop cube or sub-cube(x1,y1,z1) from bigger cube(x,y,z)
 
 def crop_cube(input_fits: str, output_fits: str,x1:int,x2:int,y1:int,y2:int, z1: float, z2: float):
     file = fits.open(input_fits)
@@ -111,6 +115,9 @@ def crop_cube(input_fits: str, output_fits: str,x1:int,x2:int,y1:int,y2:int, z1:
     print(f"Cropped cube saved to {output_fits}")
 
 
+
+#Takes input as MAMGA FITS Data cube
+#Return output as particular (x,y) spaxel
 def plot_spaxel_spectra(input_fits: str, x: int, y: int):
     file = fits.open(input_fits)
     flux_cube = file['FLUX'].data
@@ -122,7 +129,9 @@ def plot_spaxel_spectra(input_fits: str, x: int, y: int):
     plt.title(f"Spaxel Spectrum at ({x}, {y})")
     plt.show()
     print(lam)
-
+	
+#Takes input as MAMGA FITS Data cube
+#Return output as particular flux map at given z or wavelength
 
 def plot_flux_map(input_fits: str, lam_index: int):
     file = fits.open(input_fits)
